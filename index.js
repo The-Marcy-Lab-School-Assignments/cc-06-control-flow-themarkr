@@ -1,7 +1,7 @@
 //1
 function sumOfThreeAndFive(){
     let sum = 0;
-  for (let i = 1; i <= 1000; i++){
+  for (let i = 1; i < 1000; i++){
       if (i % 3 === 0 || i % 5 === 0){
           sum += i;
       }
@@ -57,6 +57,6 @@ function sortThreeNums(pos1,pos2,pos3){
 console.log(sumOfThreeAndFive());
 console.log(greaterNum(10,10));
 oddAndEvenInFifteen();
-sortThreeNums(20, 15 , 30);
+sortThreeNums(-14, 14 , -1);
 
 
